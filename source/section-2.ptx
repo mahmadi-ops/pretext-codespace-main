@@ -11,5 +11,20 @@
   <m>\frac{\vec{r}(t_0+h)-\vec{r}(t_0)}{h}</m> becomes parallel to the tangent line.</caption>
 </figure>
 
+<exercise label="mylabel">
+  <webwork>
+    <pg-code>
+      Context("ImplicitPlane");
+    </pg-code>
+    <statement>
+      <p>
+        The answer is <m>x+y=1</m>.
+      </p>
+      <p>
+        <var name="'x+y=1'" width="8"/>
+      </p>
+    </statement>
+  </webwork>
+</exercise>
 
 </section>
