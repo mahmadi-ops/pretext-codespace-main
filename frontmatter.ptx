@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<frontmatter>
+  <bibinfo>
+    <author>
+      <personname>Mehdi Ahmadi</personname>
+    </author>
+  </bibinfo>
+  
+  <abstract>
+    <p>
+      This document is a template for those who are new to PreTeXt.
+    </p>
+  </abstract>
+</frontmatter>
