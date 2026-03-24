@@ -1,25 +1,23 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
 
   <docinfo>
-  <macros>
-    \newcommand{\deriv}[2]{\displaystyle \frac{d#1}{d#2}}
-    \newcommand{\real}{\Bbb R}
-  </macros>
-  <prefigure-preamble xmlns="https://prefigure.org">
-    <graph stroke="green"/>
-    <point style="diamond" size="5" fill="blue" outline="yes"/>
-  </prefigure-preamble>
-</docinfo>
+    <macros>
+      \newcommand{\deriv}[2]{\displaystyle \frac{d#1}{d#2}}
+      \newcommand{\real}{\Bbb R}
+    </macros>
+    <prefigure-preamble>
+      <graph stroke="green"/>
+      <point style="diamond" size="5" fill="blue" outline="yes"/>
+    </prefigure-preamble>
+  </docinfo>
 
   <article xml:id="shorttitlelowercase">
     <title>A Template For New PreTeXt Users</title>
-
-    <xi:include href="./frontmatter.ptx" />
-
-    <xi:include href="./introduction.ptx" />
-    <xi:include href="./section-1.ptx" />
-    <xi:include href="./section-2.ptx" />
+    <xi:include href="frontmatter.ptx" />
+    <xi:include href="introduction.ptx" />
+    <xi:include href="section-1.ptx" />
+    <xi:include href="section-2.ptx" />
   </article>
 
 </pretext>

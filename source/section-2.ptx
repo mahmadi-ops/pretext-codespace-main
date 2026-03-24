@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <section xml:id="section-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Including Interactive Graphics</title>
-  <p>In this section, we will see an example of a graph created using GeoGebra.</p>
   
-  <figure width="50%">
-    <interactive geogebra="rqrxy7j9" shift-drag-zoom="yes"/>
-    <caption>Use the slider to observe that when <m>h\to 0</m>, the vector 
-      <m>\frac{\vec{r}(t_0+h)-\vec{r}(t_0)}{h}</m> becomes parallel to the tangent line.</caption>
+  <p>
+    In this section, we will see an example 
+    of a graph created using GeoGebra.
+  </p>
+
+  <figure xml:id="fig-geogebra-tangent">
+    <caption>
+      Use the slider to observe that when <m>h\to 0</m>, the vector 
+      <m>\frac{\vec{r}(t_0+h)-\vec{r}(t_0)}{h}</m> becomes parallel to the tangent line.
+    </caption>
+    <interactive geogebra="rqrxy7j9" width="60%" shift-drag-zoom="yes"/>
   </figure>
 
-  <exercise label="mylabel">
+  <exercise xml:id="exe-implicit-plane">
     <webwork>
       <pg-code>
         Context("ImplicitPlane");
@@ -17,14 +23,12 @@
       </pg-code>
       <statement>
         <p>The answer is <m>x+y=1</m>.</p>
-        <p>
-          <var name="$ans" width="8"/>
-        </p>
+        <p><var name="$ans" width="8"/></p>
       </statement>
     </webwork>
   </exercise>
 
-  <exercise label="mylabel3">
+  <exercise xml:id="exe-numeric-sum">
     <webwork>
       <pg-code>
         Context("LimitedNumeric");
