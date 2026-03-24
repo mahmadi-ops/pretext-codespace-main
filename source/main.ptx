@@ -4,12 +4,9 @@
   <docinfo>
 
     <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
-
-    <macros>\newcommand{\foo}{b^{ar}}</macros>
-    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
-  </docinfo>
-  
-  <docinfo>
+    <prefigure-preamable>
+      \usepackage{tikz}
+    </prefigure-preamable>
   <macros>
     \newcommand{\deriv}[2]{\displaystyle \frac{d#1}{d#2}}
     \newcommand{\real}{\Bbb R}
