@@ -27,4 +27,32 @@
   </webwork>
 </exercise>
 
+<exercise label="mylabel2">
+<webwork>
+  <pg-code>
+    Context("LimitedNumeric");
+    $a = Compute(random(1, 9));
+    $b = Compute(random(1, 9));
+    $c = $a + $b;
+  </pg-code>
+
+  <statement>
+    <p>
+      Compute <m><var name="$a"/> + <var name="$b"/></m>.
+    </p>
+    <instruction>
+      Type your answer without using the <c>+</c> sign.
+    </instruction>
+    <p>
+      The sum is <var name="$c" width="2"/>.
+    </p>
+  </statement>
+
+  <solution>
+    <p>
+      <m><var name="$a"/> + <var name="$b"/> = <var name="$c"/></m>.
+    </p>
+  </solution>
+</webwork>
+</exercise>
 </section>
