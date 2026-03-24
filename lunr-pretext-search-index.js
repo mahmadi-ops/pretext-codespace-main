@@ -1,13 +1,13 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "shorttitlelowercase-2",
+  "id": "front-matter",
   "level": "1",
-  "url": "shorttitlelowercase-2.html",
+  "url": "front-matter.html",
   "type": "Front Matter",
   "number": "",
   "title": "Front Matter",
-  "body": "  Mehdi Ahmadi    This document is a template for those who are new to PreTeXt.   "
+  "body": "Mehdi Ahmadi    This document is a template for those who are new to PreTeXt.   "
 },
 {
   "id": "section-1",
@@ -61,7 +61,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2",
   "title": "Including Interactive Graphics",
-  "body": " Including Interactive Graphics  In this section, we will see an example of a graph created using GeoGebra.    Use the slider to observe that when , the vector becomes parallel to the tangent line.   "
+  "body": " Including Interactive Graphics  In this section, we will see an example of a graph created using GeoGebra.    Use the slider to observe that when , the vector becomes parallel to the tangent line.      The answer is                Compute  The sum is .                     The derivative is \\deriv{y}{x} .      "
 },
 {
   "id": "section-2-3",
@@ -71,6 +71,24 @@ var ptx_lunr_docs = [
   "number": "2.1",
   "title": "",
   "body": "  Use the slider to observe that when , the vector becomes parallel to the tangent line.  "
+},
+{
+  "id": "mylabel",
+  "level": "2",
+  "url": "section-2.html#mylabel",
+  "type": "Checkpoint",
+  "number": "2.2",
+  "title": "",
+  "body": "   The answer is            "
+},
+{
+  "id": "mylabel3",
+  "level": "2",
+  "url": "section-2.html#mylabel3",
+  "type": "Checkpoint",
+  "number": "2.3",
+  "title": "",
+  "body": "   Compute  The sum is .              "
 }
 ]
 
