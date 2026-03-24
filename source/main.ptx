@@ -2,11 +2,6 @@
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
 
   <docinfo>
-
-    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
-    <prefigure-preamable>
-      \usepackage{tikz}
-    </prefigure-preamable>
   <macros>
     \newcommand{\deriv}[2]{\displaystyle \frac{d#1}{d#2}}
     \newcommand{\real}{\Bbb R}
