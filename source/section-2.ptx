@@ -44,7 +44,7 @@ $a=random(2,2,1);$b=random(1,1,1);
 #$as=$a**2; $bs=$b**2;
 if($a==3 & $b==1){$b=2}
 $d=$a-$b;
-#$apb=$a;
+$apb=$a;
 
 Context("Fraction");
 Context()->variables->are(n=>'Real',k=>'Real',A=>'Real',B=>'Real');
