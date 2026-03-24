@@ -27,54 +27,7 @@
   </webwork>
 </exercise>
 
-<exercise label="mylabel2">
-<webwork>
-<pg-code>
-loadMacros(
-  "PGstandard.pl",
-  "MathObjects.pl",
-  "contextFraction.pl",
-  "littleneck.pl",
-  "PGgraphmacros.pl",
-  "PGcourse.pl"
-);
 
-Context()->variables->are(n=>'Real',k=>'Real');
-$a=random(2,2,1);$b=random(1,1,1); 
-#$as=$a**2; $bs=$b**2;
-if($a==3 & $b==1){$b=2}
-$d=$a-$b;
-$apb=$a;
-
-Context("Fraction");
-Context()->variables->are(n=>'Real',k=>'Real',A=>'Real',B=>'Real');
-$A=Compute("1/$a");
-$B=Compute("-1/$a");
-$g=Formula("1/[($a*k-$b)*($a*k+$d)]")->reduce;
-$f=Formula("1/[$a^2*k^2+($a*$d-$a*$b)*k - $b*$d]")->reduce;
-$F=Formula("A/($a*k-$b)+B/($a*k+$d)")->reduce;
-$G=Formula("$A*(1/($a*k-$b)-1/($a*k+$d))")->reduce;
-$S1=Formula("(1/($a*k-$b)-1/($a*k+$d))")->reduce;
-$S2=Formula("1/$d-1/($a*n+$d)")->reduce;
-$E1=Formula("$a*A+$a*B")->reduce;
-$E2=Formula("$d*A-$b*B")->reduce;
-$ans=Compute("$A/($a-$b)");
-Context()->texStrings;
-Context("Numeric");
-Context()->variables->are(n=>'Real',k=>'Real');
-Context()->texStrings;
-BEGIN_TEXT
-Determine whether the series converges, and if so find its sum.$PAR
-
-\(\displaystyle \sum_{k=1}^{\infty} $f =\) \{ans_rule(50) \}
-$PAR 
-$BBOLD NOTE: $EBOLD Enter "DNE" if the sum does not exist.
-$PAR
-END_TEXT
-ANS($ans->cmp);
-</pg-code>
-</webwork>
-</exercise>
 
 <exercise label="mylabel3">
 <webwork>
@@ -104,4 +57,21 @@ ANS($ans->cmp);
   </solution>
 </webwork>
 </exercise>
+
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="prefigure-rectangle">
+    <diagram dimensions="(300,300)" margins="5">
+      <coordinates bbox="(0,0,10,10)">
+        <grid-axes/>
+        <rectangle center="(5,5)" dimensions="(6,6)"/>
+        <label anchor="(0.5,0.5)" alignment="ne"
+               clear-background="yes">
+          The derivative is <m>\deriv{y}{x}</m>.
+        </label>
+      </coordinates>
+    </diagram>
+  </prefigure>
+</image>
+
 </section>
