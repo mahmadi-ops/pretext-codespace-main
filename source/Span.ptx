@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<section xml:id="section-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="section-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Span of a set of vectors</title>
   <p>
     In this section, we will discuss the span of a set of vectors. 
   </p>
+   <definition xml:id="def-linear-transformation">
+      <statement>
+        <p>A transformation <m>T:R^n\rightarrow R^m</m> is a 
+          linear transformation if it satisfies the following two 
+          properties for all <m>\vec{x},\vec{y}\in\R^n</m> and all 
+          scalars <m>a\in R</m>.
+        </p>
+      </statement>
+    </definition>
   </section>
