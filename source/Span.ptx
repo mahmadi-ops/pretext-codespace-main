@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<chapter xml:id="ch-">
+<chapter xml:id="ch-linear-transformations" xmlns:xi="http://www.w3.org/2001/XInclude" >
   <title>Linear Transformations</title>
 <section xml:id="section-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Span of a set of vectors</title>
@@ -69,7 +69,5 @@ so <m>T</m> preserves the negative of a vector.
 </ol>
 </p>
 </remark>
-
-
   </section>
-  </chapter>
+</chapter>
