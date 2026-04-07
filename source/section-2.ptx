@@ -12,7 +12,7 @@
       Use the slider to observe that when <m>h\to 0</m>, the vector 
       <m>\frac{\vec{r}(t_0+h)-\vec{r}(t_0)}{h}</m> becomes parallel to the tangent line.
     </caption>
-    <interactive geogebra="rqrxy7j9" width="60%" shift-drag-zoom="yes"/>
+    <interactive geogebra="rqrxy7j9" width="100%" shift-drag-zoom="yes"/>
   </figure>
 
   <exercise xml:id="exe-implicit-plane">
