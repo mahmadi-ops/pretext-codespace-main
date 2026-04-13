@@ -11,11 +11,11 @@
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="A_Template_For_New_PreTeXt_Users/2_2.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="A_Template_For_New_PreTeXt_Users/3_2.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-03-24T17:16:24Z       
+###       on 2026-04-07T16:58:42Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -31,7 +31,7 @@
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.2)
+## Problem1(3.2)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -59,6 +59,7 @@ TEXT(beginproblem());
 # PG Setup Code
 ############################################################
 Context("ImplicitPlane");
+$ans = ImplicitPlane("x+y=1");
 
 ############################################################
 # Body
@@ -67,7 +68,7 @@ Context("ImplicitPlane");
 BEGIN_PGML
 The answer is [`x+y=1\text{.}`]
 
-[_]{'x+y=1'}{8}
+[_]{$ans}{8}
 
 END_PGML
 
@@ -91,11 +92,11 @@ ENDDOCUMENT();
       <solution><p><m>{2} + {4} = {6}\text{.}</m></p>
 </solution>
     </static>
-    <rendering-data problemSource="A_Template_For_New_PreTeXt_Users/2_3.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="A_Template_For_New_PreTeXt_Users/3_3.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-03-24T17:16:24Z       
+###       on 2026-04-07T16:58:42Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -111,7 +112,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.3)
+## Problem1(3.3)
 ## Author()
 ## Institution()
 ## Language(en-US)
