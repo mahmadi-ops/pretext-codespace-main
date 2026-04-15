@@ -133,7 +133,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "1",
   "title": "Linear Transformations",
-  "body": " Linear Transformations   Span of a set of vectors  In this section, we will discuss the span of a set of vectors.   Transformation by Matrix Multiplication   Consider the matrix By matrix multiplication, maps vectors in into vectors in as shown below. Consider the vector , then the image of under the transformation defined by is given by:       A transformation is a linear transformation if it satisfies the following two properties for all and all scalars .  Preservation of vector addition:  Preservation of scalar multiplication:       Properties of Linear Transformations  Let be a linear transformation, and let . Since preserves scalar multiplication,   implying , so preserves the zero vector.   , implying , so preserves the negative of a vector.      "
+  "body": " Linear Transformations   Definition and Properties  In this section, we will discuss linear transformations and their properties.   Transformation by Matrix Multiplication   Consider the matrix By matrix multiplication, maps vectors in into vectors in as shown below. Consider the vector , then the image of under the transformation defined by is given by:       A transformation is a linear transformation if it satisfies the following two properties for all and all scalars .  Preservation of vector addition:  Preservation of scalar multiplication:       Properties of Linear Transformations  Let be a linear transformation, and let . Since preserves scalar multiplication,   implying , so preserves the zero vector.   , implying , so preserves the negative of a vector.      "
 },
 {
   "id": "Matrix-Transformation",
