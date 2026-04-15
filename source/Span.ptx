@@ -4,7 +4,7 @@
 <section xml:id="section-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Span of a set of vectors</title>
   <p>
-    In this section, we will discuss the span of a set of vectors.
+    In this section, we will discuss linear transformations and their properties.
   </p>
 
   <example xml:id="Matrix-Transformation">
