@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<chapter xml:id="ch-linear-transformations" xmlns:xi="http://www.w3.org/2001/XInclude" >
-  <title>Linear Transformations</title>
 <section xml:id="section-3" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Definition and Properties</title>
+  <title>Linear Transformations</title>
   <p>
     In this section, we will discuss linear transformations and their properties.
   </p>
 
-  <example xml:id="Matrix-Transformation">
+ 
+
+   <definition xml:id="def-linear-transformation">
+      <statement>
+        <p>A transformation <m>T:\R^n\rightarrow \R^m</m> is a 
+          linear transformation if it satisfies the following two 
+          properties for all <m>\vec{x},\vec{y}\in\R^n</m> and all 
+          scalars <m>a\in \R</m>.
+         <ol>
+          <li>Preservation of vector addition: <m>T(\vec{x}+\vec{y})=T(\vec{x})+T(\vec{y})</m></li>
+          <li>Preservation of scalar multiplication: <m>T(a\vec{x})=aT(\vec{x})</m></li>
+          </ol>
+        </p>
+      </statement>
+    </definition>
+    <remark xml:id="remark-properties-linear-transformations">
+      <title>Properties of Linear Transformations</title>
+      <p>Let <m>T:\R^n\to\R^m</m> be a linear transformation, and
+let <m>\vec{x}\in\R^n</m>.
+Since <m>T</m> preserves scalar multiplication,
+<ol>
+<li> <m>T(0\vec{x})=0T(\vec{x})</m> implying <m>T(\vec{0})=\vec{0}</m>, 
+so <m>T</m> preserves the zero vector.</li>
+<li> <m>T((-1)\vec{x})=(-1)T(\vec{x})</m>, implying <m>T(-\vec{x})=-T(\vec{x})</m>,
+so <m>T</m> preserves the negative of a vector.
+</li>
+</ol>
+</p>
+</remark>
+ <example xml:id="Matrix-Transformation">
     <title>Transformation by Matrix Multiplication</title>
     <statement>
      <p>Consider the matrix
@@ -41,33 +68,4 @@ x + 2y \\
      </p>
     </statement>
  </example>
-
-   <definition xml:id="def-linear-transformation">
-      <statement>
-        <p>A transformation <m>T:\R^n\rightarrow \R^m</m> is a 
-          linear transformation if it satisfies the following two 
-          properties for all <m>\vec{x},\vec{y}\in\R^n</m> and all 
-          scalars <m>a\in \R</m>.
-         <ol>
-          <li>Preservation of vector addition: <m>T(\vec{x}+\vec{y})=T(\vec{x})+T(\vec{y})</m></li>
-          <li>Preservation of scalar multiplication: <m>T(a\vec{x})=aT(\vec{x})</m></li>
-          </ol>
-        </p>
-      </statement>
-    </definition>
-    <remark xml:id="remark-properties-linear-transformations">
-      <title>Properties of Linear Transformations</title>
-      <p>Let <m>T:\R^n\to\R^m</m> be a linear transformation, and
-let <m>\vec{x}\in\R^n</m>.
-Since <m>T</m> preserves scalar multiplication,
-<ol>
-<li> <m>T(0\vec{x})=0T(\vec{x})</m> implying <m>T(\vec{0})=\vec{0}</m>, 
-so <m>T</m> preserves the zero vector.</li>
-<li> <m>T((-1)\vec{x})=(-1)T(\vec{x})</m>, implying <m>T(-\vec{x})=-T(\vec{x})</m>,
-so <m>T</m> preserves the negative of a vector.
-</li>
-</ol>
-</p>
-</remark>
   </section>
-</chapter>
