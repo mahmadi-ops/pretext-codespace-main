@@ -29,11 +29,11 @@
     
     <example xml:id="example-geometric-series">
       <statement>
-        <p>Find the sum of the geometric series <m>1 + \frac{1}{2} + \frac{1}{4} + \cdots</m></p>
+        <p>Find the sum of the geometric series <m> \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \cdots</m></p>
       </statement>
       <solution>
-        <p>Since this is a geometric series with first term <m>a = 1</m> and ratio <m>r = \frac{1}{2}</m>, the sum is:
-        <me>S_n =\sum_{i=0}^n a_i=\frac{a}{1-r} = \frac{1}{1-\frac{1}{2}} = 2</me>
+        <p>Since this is a geometric series with first term <m>a = \frac{1}{2}</m> and ratio <m>r = \frac{1}{2}</m>, the sum is:
+        <me>S_n =\sum_{i=0}^n a_i=\frac{a}{1-r} = \frac{\frac{1}{2}}{1-\frac{1}{2}} = 1</me>
         </p>
       </solution>
     </example>
