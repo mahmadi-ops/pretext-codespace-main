@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Front Matter",
   "number": "",
   "title": "Front Matter",
-  "body": "  Mehdi Ahmadi        This document is a template for those who are new to PreTeXt.   "
+  "body": "  Mehdi Ahmadi        This document is a template for my future notes.   "
 },
 {
   "id": "intro",
