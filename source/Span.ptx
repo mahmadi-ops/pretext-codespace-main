@@ -2,7 +2,7 @@
 <chapter xml:id="ch-linear-transformations" xmlns:xi="http://www.w3.org/2001/XInclude" >
   <title>Linear Transformations</title>
 <section xml:id="section-3" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Span of a set of vectors</title>
+  <title>Definition and Properties</title>
   <p>
     In this section, we will discuss linear transformations and their properties.
   </p>
