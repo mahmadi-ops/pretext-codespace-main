@@ -127,40 +127,40 @@ var ptx_lunr_docs = [
   "body": " Second Sample PreFigure Image     v1 = (2,1)  v2 = (-1,1)  a=3  b=2  w=a*v1+b*v2           {\\vec v}_1    {\\vec v}_2    ${a}{\\vec v}_1+${b}{\\vec v}_2       "
 },
 {
-  "id": "ch-linear-transformations",
+  "id": "section-3",
   "level": "1",
-  "url": "ch-linear-transformations.html",
-  "type": "Chapter",
-  "number": "1",
+  "url": "section-3.html",
+  "type": "Section",
+  "number": "4",
   "title": "Linear Transformations",
-  "body": " Linear Transformations   Definition and Properties  In this section, we will discuss linear transformations and their properties.   Transformation by Matrix Multiplication   Consider the matrix By matrix multiplication, maps vectors in into vectors in as shown below. Consider the vector , then the image of under the transformation defined by is given by:       A transformation is a linear transformation if it satisfies the following two properties for all and all scalars .  Preservation of vector addition:  Preservation of scalar multiplication:       Properties of Linear Transformations  Let be a linear transformation, and let . Since preserves scalar multiplication,   implying , so preserves the zero vector.   , implying , so preserves the negative of a vector.      "
-},
-{
-  "id": "Matrix-Transformation",
-  "level": "2",
-  "url": "ch-linear-transformations.html#Matrix-Transformation",
-  "type": "Example",
-  "number": "1.1",
-  "title": "Transformation by Matrix Multiplication.",
-  "body": " Transformation by Matrix Multiplication   Consider the matrix By matrix multiplication, maps vectors in into vectors in as shown below. Consider the vector , then the image of under the transformation defined by is given by:    "
+  "body": " Linear Transformations  In this section, we will discuss linear transformations and their properties.    A transformation is a linear transformation if it satisfies the following two properties for all and all scalars .  Preservation of vector addition:  Preservation of scalar multiplication:       Properties of Linear Transformations  Let be a linear transformation, and let . Since preserves scalar multiplication,   implying , so preserves the zero vector.   , implying , so preserves the negative of a vector.      Transformation by Matrix Multiplication   Consider the matrix By matrix multiplication, maps vectors in into vectors in as shown below. Consider the vector , then the image of under the transformation defined by is given by:     "
 },
 {
   "id": "def-linear-transformation",
   "level": "2",
-  "url": "ch-linear-transformations.html#def-linear-transformation",
+  "url": "section-3.html#def-linear-transformation",
   "type": "Definition",
-  "number": "1.2",
+  "number": "4.1",
   "title": "",
   "body": "  A transformation is a linear transformation if it satisfies the following two properties for all and all scalars .  Preservation of vector addition:  Preservation of scalar multiplication:     "
 },
 {
   "id": "remark-properties-linear-transformations",
   "level": "2",
-  "url": "ch-linear-transformations.html#remark-properties-linear-transformations",
+  "url": "section-3.html#remark-properties-linear-transformations",
   "type": "Remark",
-  "number": "1.3",
+  "number": "4.2",
   "title": "Properties of Linear Transformations.",
   "body": " Properties of Linear Transformations  Let be a linear transformation, and let . Since preserves scalar multiplication,   implying , so preserves the zero vector.   , implying , so preserves the negative of a vector.    "
+},
+{
+  "id": "Matrix-Transformation",
+  "level": "2",
+  "url": "section-3.html#Matrix-Transformation",
+  "type": "Example",
+  "number": "4.3",
+  "title": "Transformation by Matrix Multiplication.",
+  "body": " Transformation by Matrix Multiplication   Consider the matrix By matrix multiplication, maps vectors in into vectors in as shown below. Consider the vector , then the image of under the transformation defined by is given by:    "
 }
 ]
 
